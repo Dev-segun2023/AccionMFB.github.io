@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+} 
+
+body{
+  
+  height: 100vh;
+  background-color: #ffffff;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding-top: 100px;
+  padding-bottom:0px;
+  padding-right: 30px;
+  box-sizing: border-box;
+
+ 
+}
+
+.banner{
+  width: 60vw;
+  margin: auto;
+
+ /* border: 3px solid blue; */
+}
+
+.banner-image{
+  width: 100%;
+  margin: auto;
+  object-fit: contain;
+}
+.school-fees-loan{
+  line-height: 23.76px;
+  text-align: center;
+  color: rgb(234, 118, 0);
+  font-family: Montserrat, sans-serif;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size:21.6px;
+  
+}
+.partners{
+  margin: auto;
+  width: 90%;
+  margin-top: 100px;
+}
+.accion-partners{
+  width:100% ;
+  
+}
+
+.footer{
+  width: 100vw !important;
+  height: auto;
+  background-color:#ea7600;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  margin-top: 100px;
+  line-height: 20px;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  
+  
+}
+

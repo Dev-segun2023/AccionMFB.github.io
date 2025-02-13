@@ -1,0 +1,123 @@
+.header{
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  /* background-color: white; */
+  height: 90px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+}
+.left{
+  width: 100px;
+  margin-left: 20px;
+  /* margin-right: 150px; */
+}
+.left .logo{
+  width: 100%;
+  min-width: 0;
+  
+}
+.right{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 100px; 
+}
+.right div:last-child{
+  display: none;
+}
+@media screen and (max-width: 1244px) {
+  .right div:last-child{
+    display: block;
+    margin-right: 20px;
+  }
+ 
+  .left{
+    margin-left: 20px;
+  }
+.left .logo{
+ 
+  display: flex;
+}
+  .right .right-elements{
+    display: none;
+  }
+   
+}
+
+@media screen and (min-width:1244px){
+  .aside .menu-elements{
+    display: none;
+    
+  }
+  
+}
+
+
+.right-elements{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 40px;
+  white-space: nowrap;
+  position: relative;
+  cursor: pointer;
+  color: rgb(234, 118, 0);
+  
+}
+.right-elements:hover{
+  animation: shake 0.2s;
+  animation-iteration-count: 1;
+  font-size: 14px;
+  color:black !important;
+}
+
+@keyframes shake{
+  0% { transform: translateY(0); }
+  25% { transform: translateY(-1px); }
+  50% { transform: translateY(1px); }
+  75% { transform: translateY(-1px); }
+  100% { transform: translateY(0); }
+}
+.right-elements .drop{
+  display: none;
+  position: absolute;
+  width: auto;
+  height: auto;
+  background-color:lightgray;
+  /* top: 20px; */
+  z-index: 1;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+  
+ 
+  border-radius: 2px;
+}
+.right-elements .drop a{
+  text-decoration: none;
+  color: black;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+ padding: 4px 14px 4px;
+ 
+  display: block;
+  font-size: 12px;
+}
+ .drop a:hover{
+  background:rgba(0, 128, 0, 0.79);
+}
+.right-elements:hover .drop{
+  display: block;
+  top: 100%;
+}
+
+.drop{
+  
+
+}
