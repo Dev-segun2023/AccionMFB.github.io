@@ -22,7 +22,11 @@ body{
   width: 60vw;
   margin: auto;
 
- /* border: 3px solid blue; */
+}
+@media screen and (max-width: 767px) {
+  .banner{
+    width: 75vw;
+  }
 }
 
 .banner-image{

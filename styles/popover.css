@@ -20,12 +20,12 @@ align-items: center;
   
  
 }
-.close, hr{
+.close{
   position: absolute;
   top: -40px; 
 }
 
-hr{
+.horizontal{
   position: absolute;
   top: -15px;
    right: 0px;
@@ -42,7 +42,7 @@ hr{
 
 @media screen and (max-width: 768px) {
   .popover-content{
-    /* width: 75vw; */
+    width: 70vw;
     
   }
   

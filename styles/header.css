@@ -94,17 +94,18 @@
   /* top: 20px; */
   z-index: 1;
   box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
-  
- 
   border-radius: 2px;
+  
 }
 .right-elements .drop a{
+  
   text-decoration: none;
   color: black;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 400;
  padding: 4px 14px 4px;
+ height: 17px;
  
   display: block;
   font-size: 12px;
@@ -117,7 +118,7 @@
   top: 100%;
 }
 
-.drop{
+.drop {
   
 
 }

@@ -3,11 +3,12 @@
   position: fixed;
   right: 0;
   top: 220px;
-  /* bottom: 10px; */
-  width: 45px;
+  
+  width: 50px;
+ 
   background-color: aqua;
   cursor: pointer;
-  /* padding: 10px; */
+  
 }
 .social-icons .facebook{
   background-color: #3b5998;
@@ -44,9 +45,7 @@
 .social-icons .envelope{
   background-color: lightskyblue
 }
-.social-icons .affect{
-  
-}
+
 
 .social-icons .affect{
   display: flex;
@@ -60,7 +59,7 @@
 }
 
 .social-icons .affect:hover{
-  background-color: orangered;
+  background-color:#ea7600;
   color: white;
 }
 
