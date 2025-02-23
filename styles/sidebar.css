@@ -9,13 +9,11 @@
 .aside.active {
   opacity: 1;
   max-height:1000px; /*Adjust this value based on the actual content height*/
-  /* max-height:auto; */
+  
 }
 
 
 .menu-elements{
-  /* width: 200px; */
-  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   padding-left: 10px;
@@ -41,7 +39,7 @@
   100% { transform: translateY(0); }
 }
 .side-elements:hover{
-  animation: shake 0.1s;
+  animation: shake 0.9s;
   animation-iteration-count: 1;
   font-size: 16px;
   color:rgb(92, 77, 77) !important;
@@ -49,21 +47,16 @@
 
 .side-elements .drop{
   display: none;
-  /* position: absolute; */
   width: 100%;
   height: auto;
-  /* background-color:rgb(255, 255, 255); */
   background-color:lightgray;
   left: 100%; 
   z-index: 1;
   box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
-  
- 
   border-radius: 2px;
 }
 .side-elements .drop a{
   text-decoration: none;
-  /* color: black; */
   color: rgb(234, 118, 0);
   font-size: 14px;
  padding: 4px 14px 4px;

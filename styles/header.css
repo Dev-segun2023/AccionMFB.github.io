@@ -4,7 +4,6 @@
   left: 0;
   top: 0;
   display: flex;
-  /* background-color: white; */
   height: 90px;
   background-color: #ffffff;
   align-items: center;
@@ -14,7 +13,6 @@
 .left{
   width: 100px;
   margin-left: 20px;
-  /* margin-right: 150px; */
 }
 .left .logo{
   width: 100%;
@@ -72,18 +70,19 @@
   
 }
 .right-elements:hover{
-  animation: shake 0.2s;
+  animation: shake 0.9s;
   animation-iteration-count: 1;
   font-size: 14px;
-  color:black !important;
+  color:rgb(93, 88, 88) !important;
 }
 
+
 @keyframes shake{
-  0% { transform: translateY(0); }
-  25% { transform: translateY(-1px); }
-  50% { transform: translateY(1px); }
-  75% { transform: translateY(-1px); }
-  100% { transform: translateY(0); }
+  0% { transform: translateY(0);}
+  25% { transform: translateY(-1px);}
+  50% { transform: translateY(1px);}
+  75% { transform: translateY(-1px);}
+  100% { transform: translateY(0);}
 }
 .right-elements .drop{
   display: none;
@@ -91,7 +90,7 @@
   width: auto;
   height: auto;
   background-color:lightgray;
-  /* top: 20px; */
+  
   z-index: 1;
   box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
   border-radius: 2px;
@@ -100,7 +99,8 @@
 .right-elements .drop a{
   
   text-decoration: none;
-  color: black;
+  /* color: black; */
+  color: rgb(234, 118, 0);
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 400;
