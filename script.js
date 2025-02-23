@@ -16,7 +16,6 @@ setTimeout(() => {
   popover.style.display = 'none';
 }
 
-
 cancel.addEventListener('click', () => {
   popover.style.display = 'none';
 })

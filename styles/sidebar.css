@@ -8,7 +8,8 @@
 
 .aside.active {
   opacity: 1;
-  max-height:500px; /* Adjust this value based on the actual content height */
+  max-height:1000px; /*Adjust this value based on the actual content height*/
+  /* max-height:auto; */
 }
 
 
@@ -43,7 +44,7 @@
   animation: shake 0.1s;
   animation-iteration-count: 1;
   font-size: 16px;
-  color:rgb(58, 53, 53) !important;
+  color:rgb(92, 77, 77) !important;
 }
 
 .side-elements .drop{
@@ -51,6 +52,7 @@
   /* position: absolute; */
   width: 100%;
   height: auto;
+  /* background-color:rgb(255, 255, 255); */
   background-color:lightgray;
   left: 100%; 
   z-index: 1;
@@ -61,16 +63,20 @@
 }
 .side-elements .drop a{
   text-decoration: none;
-  color: black;
+  /* color: black; */
+  color: rgb(234, 118, 0);
   font-size: 14px;
  padding: 4px 14px 4px;
  height: 17px;
   display: block;
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
  .drop a:hover{
-  background:rgba(0, 128, 0, 0.79);
+  background:rgba(131, 140, 6, 0.815);
+  color:  white;
 }
 .side-elements:hover .drop{
   display: block;
